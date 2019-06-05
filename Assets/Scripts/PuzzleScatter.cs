@@ -20,8 +20,12 @@ public class PuzzleScatter : MonoBehaviour
     float moveSpeedX;
     float moveSpeedZ;
 
+    GameObject target;
+
     void Awake()
     {
+        target=GameObject.FindWithTag("target");
+
         moveSpeedX = initialMoveSpeedX;
         moveSpeedZ = initialMoveSpeedZ;
 
@@ -71,6 +75,7 @@ public class PuzzleScatter : MonoBehaviour
             vect3 = transform.position;
             moveSpeedX = initialMoveSpeedX;
             moveSpeedZ = initialMoveSpeedZ;
+            transform.parent = target.transform;
         }
     }
 }
