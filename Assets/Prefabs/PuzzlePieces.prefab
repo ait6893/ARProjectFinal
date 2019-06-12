@@ -1,5 +1,20 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &637783840598167782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8906355040368392280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0.9339623, g: 0.048460312, b: 0.23799805, a: 0.5}
+  m_EffectDistance: {x: 1, y: -1}
+  m_UseGraphicAlpha: 0
 --- !u!1 &3588884244022535174
 GameObject:
   m_ObjectHideFlags: 0
@@ -9,7 +24,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5738098609431022001}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: PuzzlePieces
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23,7 +38,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3588884244022535174}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0.7071068, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -45,7 +60,7 @@ Transform:
   - {fileID: 9220353895758108167}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -90, y: 180, z: 0}
 --- !u!1001 &806193823431333884
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -53,11 +68,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5738098609431022001}
     m_Modifications:
-    - target: {fileID: 6092638444854819748, guid: de29274812b5dd746ac8868862066a22,
-        type: 3}
-      propertyPath: m_Name
-      value: PuzzlePiece3
-      objectReference: {fileID: 0}
     - target: {fileID: 3581806882968254449, guid: de29274812b5dd746ac8868862066a22,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -113,6 +123,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6092638444854819748, guid: de29274812b5dd746ac8868862066a22,
+        type: 3}
+      propertyPath: m_Name
+      value: PuzzlePiece
+      objectReference: {fileID: 0}
     - target: {fileID: 2436263044885971747, guid: de29274812b5dd746ac8868862066a22,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -133,11 +148,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5738098609431022001}
     m_Modifications:
-    - target: {fileID: 6092638444854819748, guid: de29274812b5dd746ac8868862066a22,
-        type: 3}
-      propertyPath: m_Name
-      value: PuzzlePiece11
-      objectReference: {fileID: 0}
     - target: {fileID: 3581806882968254449, guid: de29274812b5dd746ac8868862066a22,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -193,6 +203,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6092638444854819748, guid: de29274812b5dd746ac8868862066a22,
+        type: 3}
+      propertyPath: m_Name
+      value: PuzzlePiece
+      objectReference: {fileID: 0}
     - target: {fileID: 2436263044885971747, guid: de29274812b5dd746ac8868862066a22,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -213,11 +228,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5738098609431022001}
     m_Modifications:
-    - target: {fileID: 6092638444854819748, guid: de29274812b5dd746ac8868862066a22,
-        type: 3}
-      propertyPath: m_Name
-      value: PuzzlePiece14
-      objectReference: {fileID: 0}
     - target: {fileID: 3581806882968254449, guid: de29274812b5dd746ac8868862066a22,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -273,6 +283,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6092638444854819748, guid: de29274812b5dd746ac8868862066a22,
+        type: 3}
+      propertyPath: m_Name
+      value: PuzzlePiece
+      objectReference: {fileID: 0}
     - target: {fileID: 2436263044885971747, guid: de29274812b5dd746ac8868862066a22,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -293,11 +308,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5738098609431022001}
     m_Modifications:
-    - target: {fileID: 6092638444854819748, guid: de29274812b5dd746ac8868862066a22,
-        type: 3}
-      propertyPath: m_Name
-      value: PuzzlePiece8
-      objectReference: {fileID: 0}
     - target: {fileID: 3581806882968254449, guid: de29274812b5dd746ac8868862066a22,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -353,6 +363,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6092638444854819748, guid: de29274812b5dd746ac8868862066a22,
+        type: 3}
+      propertyPath: m_Name
+      value: PuzzlePiece
+      objectReference: {fileID: 0}
     - target: {fileID: 2436263044885971747, guid: de29274812b5dd746ac8868862066a22,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -373,11 +388,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5738098609431022001}
     m_Modifications:
-    - target: {fileID: 6092638444854819748, guid: de29274812b5dd746ac8868862066a22,
-        type: 3}
-      propertyPath: m_Name
-      value: PuzzlePiece13
-      objectReference: {fileID: 0}
     - target: {fileID: 3581806882968254449, guid: de29274812b5dd746ac8868862066a22,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -433,6 +443,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6092638444854819748, guid: de29274812b5dd746ac8868862066a22,
+        type: 3}
+      propertyPath: m_Name
+      value: PuzzlePiece
+      objectReference: {fileID: 0}
     - target: {fileID: 2436263044885971747, guid: de29274812b5dd746ac8868862066a22,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -453,11 +468,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5738098609431022001}
     m_Modifications:
-    - target: {fileID: 6092638444854819748, guid: de29274812b5dd746ac8868862066a22,
-        type: 3}
-      propertyPath: m_Name
-      value: PuzzlePiece10
-      objectReference: {fileID: 0}
     - target: {fileID: 3581806882968254449, guid: de29274812b5dd746ac8868862066a22,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -513,6 +523,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6092638444854819748, guid: de29274812b5dd746ac8868862066a22,
+        type: 3}
+      propertyPath: m_Name
+      value: PuzzlePiece
+      objectReference: {fileID: 0}
     - target: {fileID: 2436263044885971747, guid: de29274812b5dd746ac8868862066a22,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -533,11 +548,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5738098609431022001}
     m_Modifications:
-    - target: {fileID: 6092638444854819748, guid: de29274812b5dd746ac8868862066a22,
-        type: 3}
-      propertyPath: m_Name
-      value: PuzzlePiece1
-      objectReference: {fileID: 0}
     - target: {fileID: 3581806882968254449, guid: de29274812b5dd746ac8868862066a22,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -593,8 +603,24 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6092638444854819748, guid: de29274812b5dd746ac8868862066a22,
+        type: 3}
+      propertyPath: m_Name
+      value: PuzzlePiece
+      objectReference: {fileID: 0}
+    - target: {fileID: 2436263044885971747, guid: de29274812b5dd746ac8868862066a22,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b17b18c5e0cabb24fb72b23d1496d5e0, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: de29274812b5dd746ac8868862066a22, type: 3}
+--- !u!1 &8906355040368392280 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6092638444854819748, guid: de29274812b5dd746ac8868862066a22,
+    type: 3}
+  m_PrefabInstance: {fileID: 3392579248225993724}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2207325358674441229 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3581806882968254449, guid: de29274812b5dd746ac8868862066a22,
@@ -608,11 +634,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5738098609431022001}
     m_Modifications:
-    - target: {fileID: 6092638444854819748, guid: de29274812b5dd746ac8868862066a22,
-        type: 3}
-      propertyPath: m_Name
-      value: PuzzlePiece9
-      objectReference: {fileID: 0}
     - target: {fileID: 3581806882968254449, guid: de29274812b5dd746ac8868862066a22,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -668,11 +689,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2436263044885971747, guid: de29274812b5dd746ac8868862066a22,
+    - target: {fileID: 6092638444854819748, guid: de29274812b5dd746ac8868862066a22,
         type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: b423e7c46202eaf4885c4a8b222893ad, type: 2}
+      propertyPath: m_Name
+      value: PuzzlePiece
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: de29274812b5dd746ac8868862066a22, type: 3}
 --- !u!4 &736093333902238362 stripped
@@ -688,11 +709,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5738098609431022001}
     m_Modifications:
-    - target: {fileID: 6092638444854819748, guid: de29274812b5dd746ac8868862066a22,
-        type: 3}
-      propertyPath: m_Name
-      value: PuzzlePiece5
-      objectReference: {fileID: 0}
     - target: {fileID: 3581806882968254449, guid: de29274812b5dd746ac8868862066a22,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -748,6 +764,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6092638444854819748, guid: de29274812b5dd746ac8868862066a22,
+        type: 3}
+      propertyPath: m_Name
+      value: PuzzlePiece
+      objectReference: {fileID: 0}
     - target: {fileID: 2436263044885971747, guid: de29274812b5dd746ac8868862066a22,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -768,11 +789,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5738098609431022001}
     m_Modifications:
-    - target: {fileID: 6092638444854819748, guid: de29274812b5dd746ac8868862066a22,
-        type: 3}
-      propertyPath: m_Name
-      value: PuzzlePiece6
-      objectReference: {fileID: 0}
     - target: {fileID: 3581806882968254449, guid: de29274812b5dd746ac8868862066a22,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -828,6 +844,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6092638444854819748, guid: de29274812b5dd746ac8868862066a22,
+        type: 3}
+      propertyPath: m_Name
+      value: PuzzlePiece
+      objectReference: {fileID: 0}
     - target: {fileID: 2436263044885971747, guid: de29274812b5dd746ac8868862066a22,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -848,11 +869,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5738098609431022001}
     m_Modifications:
-    - target: {fileID: 6092638444854819748, guid: de29274812b5dd746ac8868862066a22,
-        type: 3}
-      propertyPath: m_Name
-      value: PuzzlePiece16
-      objectReference: {fileID: 0}
     - target: {fileID: 3581806882968254449, guid: de29274812b5dd746ac8868862066a22,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -908,6 +924,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6092638444854819748, guid: de29274812b5dd746ac8868862066a22,
+        type: 3}
+      propertyPath: m_Name
+      value: PuzzlePiece
+      objectReference: {fileID: 0}
     - target: {fileID: 2436263044885971747, guid: de29274812b5dd746ac8868862066a22,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -928,11 +949,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5738098609431022001}
     m_Modifications:
-    - target: {fileID: 6092638444854819748, guid: de29274812b5dd746ac8868862066a22,
-        type: 3}
-      propertyPath: m_Name
-      value: PuzzlePiece2
-      objectReference: {fileID: 0}
     - target: {fileID: 3581806882968254449, guid: de29274812b5dd746ac8868862066a22,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -988,6 +1004,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6092638444854819748, guid: de29274812b5dd746ac8868862066a22,
+        type: 3}
+      propertyPath: m_Name
+      value: PuzzlePiece
+      objectReference: {fileID: 0}
     - target: {fileID: 2436263044885971747, guid: de29274812b5dd746ac8868862066a22,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -1008,11 +1029,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5738098609431022001}
     m_Modifications:
-    - target: {fileID: 6092638444854819748, guid: de29274812b5dd746ac8868862066a22,
-        type: 3}
-      propertyPath: m_Name
-      value: PuzzlePiece12
-      objectReference: {fileID: 0}
     - target: {fileID: 3581806882968254449, guid: de29274812b5dd746ac8868862066a22,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1068,6 +1084,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6092638444854819748, guid: de29274812b5dd746ac8868862066a22,
+        type: 3}
+      propertyPath: m_Name
+      value: PuzzlePiece
+      objectReference: {fileID: 0}
     - target: {fileID: 2436263044885971747, guid: de29274812b5dd746ac8868862066a22,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -1088,11 +1109,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5738098609431022001}
     m_Modifications:
-    - target: {fileID: 6092638444854819748, guid: de29274812b5dd746ac8868862066a22,
-        type: 3}
-      propertyPath: m_Name
-      value: PuzzlePiece7
-      objectReference: {fileID: 0}
     - target: {fileID: 3581806882968254449, guid: de29274812b5dd746ac8868862066a22,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1148,6 +1164,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6092638444854819748, guid: de29274812b5dd746ac8868862066a22,
+        type: 3}
+      propertyPath: m_Name
+      value: PuzzlePiece
+      objectReference: {fileID: 0}
     - target: {fileID: 2436263044885971747, guid: de29274812b5dd746ac8868862066a22,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -1168,11 +1189,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5738098609431022001}
     m_Modifications:
-    - target: {fileID: 6092638444854819748, guid: de29274812b5dd746ac8868862066a22,
-        type: 3}
-      propertyPath: m_Name
-      value: PuzzlePiece15
-      objectReference: {fileID: 0}
     - target: {fileID: 3581806882968254449, guid: de29274812b5dd746ac8868862066a22,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1228,6 +1244,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6092638444854819748, guid: de29274812b5dd746ac8868862066a22,
+        type: 3}
+      propertyPath: m_Name
+      value: PuzzlePiece
+      objectReference: {fileID: 0}
     - target: {fileID: 2436263044885971747, guid: de29274812b5dd746ac8868862066a22,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -1248,11 +1269,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5738098609431022001}
     m_Modifications:
-    - target: {fileID: 6092638444854819748, guid: de29274812b5dd746ac8868862066a22,
-        type: 3}
-      propertyPath: m_Name
-      value: PuzzlePiece4
-      objectReference: {fileID: 0}
     - target: {fileID: 3581806882968254449, guid: de29274812b5dd746ac8868862066a22,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1307,6 +1323,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6092638444854819748, guid: de29274812b5dd746ac8868862066a22,
+        type: 3}
+      propertyPath: m_Name
+      value: PuzzlePiece
       objectReference: {fileID: 0}
     - target: {fileID: 2436263044885971747, guid: de29274812b5dd746ac8868862066a22,
         type: 3}

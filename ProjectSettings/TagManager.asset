@@ -4,7 +4,23 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - target
+  - Puzzle5
+  - Puzzle2
+  - Puzzle14
+  - Puzzle8
+  - Puzzle9
+  - Puzzle15
+  - Puzzle13
+  - Puzzle3
+  - Puzzle10
+  - Puzzle1
+  - Puzzle6
+  - Puzzle7
+  - Puzzle16
+  - Puzzle11
+  - Puzzle12
+  - Puzzle4
+  - sceneControl
   layers:
   - Default
   - TransparentFX
@@ -15,8 +31,8 @@ TagManager:
   - 
   - 
   - PostProcessing
-  - PuzzlePiece
-  - target
+  - 
+  - 
   - 
   - 
   - 
